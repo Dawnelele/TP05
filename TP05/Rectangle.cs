@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP05
 {
-    class Rectangle : Figure
+    public class Rectangle : Figure
     {
         double x, y, longueur, largeur, surface;
 
@@ -18,7 +18,7 @@ namespace TP05
             this.largeur = largeur;
         }
 
-        public double Surface()
+        public override double Surface()
         {
             this.surface = this.longueur * this.largeur;
             return this.surface;

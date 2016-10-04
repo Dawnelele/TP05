@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP05
 {
-    public class Figure
+    abstract public class Figure
     {
         double x, y, surface;
 
@@ -16,14 +16,11 @@ namespace TP05
             this.y = y;
         }
 
-        public double Surface()
-        {
-            return this.surface;
-        }
+        abstract public double Surface();
 
         public string Informations()
         {
-            return "Les coordonnées du centre de la figure sont : x = " + this.x + " et y = " + this.y;
+            return this.x + " " + this.y;
         }
     }
 }

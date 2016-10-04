@@ -16,7 +16,7 @@ namespace TP05
             this.rayon = rayon;
         }
 
-        public double Surface()
+        public override double Surface()
         {
             this.surface = Math.PI * Math.Pow(this.rayon, 2);
             return this.surface;
