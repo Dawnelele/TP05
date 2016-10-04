@@ -10,7 +10,7 @@ namespace TP05
     {
         double x, y, surface;
 
-        public Figure(double x, double y)
+        public Figure(double x = 1, double y = 1)
         {
             this.x = x;
             this.y = y;

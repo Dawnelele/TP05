@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace TP05
 {
-    class Cercle : Figure
+    public class Cercle : Figure
     {
         double x, y, rayon, surface;
-        public Cercle(double x, double y, double rayon) : base(x, y)
+        public Cercle(double rayon, double x = 1, double y = 1) : base (x, y)
         {
             this.x = x;
             this.y = y;

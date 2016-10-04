@@ -10,7 +10,7 @@ namespace TP05
     {
         double x, y, longueur, largeur, surface;
 
-        public Rectangle(double x, double y, double longueur, double largeur) : base(x, y)
+        public Rectangle(double longueur, double largeur, double x = 1, double y = 1) : base(x, y)
         {
             this.x = x;
             this.y = y;
